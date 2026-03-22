@@ -18,7 +18,7 @@ export default function Page() {
       "แง่ว",
       "เค้าเลี้ยงหนม",
       "เค้าเลี้ยงข้าว",
-      "เค้าทำงาบ้านให้",
+      "เค้าทำงานบ้านให้",
       "เค้าไม่ทำแน้ว",
       "เค้ารักจจ",
       ":(((",
@@ -54,7 +54,7 @@ export default function Page() {
               onClick={handleNoClick}
               className=" rounded bg-red-500 px-4 py-2 font-bold text-white hover:bg-red-700"
             >
-              {noCount === 0 ? "No" : getNoButtonText()}
+              {noCount === 0 ? "ไม่" : getNoButtonText()}
             </button>
           </div>
         </>
